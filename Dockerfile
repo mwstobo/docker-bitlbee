@@ -19,6 +19,7 @@ RUN apk update \
  && apk add --no-cache \
             ca-certificates \
             glib-dev \
+            json-glib-dev \
             gnutls-dev \
             gnutls \
             libc-dev \
